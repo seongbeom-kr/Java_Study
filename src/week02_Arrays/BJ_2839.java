@@ -6,7 +6,7 @@ public class BJ_2839 {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int min =0;
-		int a,b; // 변수설
+		int a,b; // 변수설정
 		min += n/5;
 		a=n%5;
 		min += a/3;
